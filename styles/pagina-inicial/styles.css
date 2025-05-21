@@ -1,5 +1,5 @@
 .banner {
-    background-image: url("../../img/banner-cliente.png");
+    background-image: url("../../img/banner-correto.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
@@ -12,14 +12,15 @@
 .banner__titulo,
 .conta__titulo {
     font-weight: 600;
-    color: var(--branco);
+    color: var(--azul-claro);
     font-size: 32px;
     line-height: 39px;
 }
 
 .banner__titulo {
-    width: 32%;
-    margin: 0 3em
+    width: 40%;
+    margin: 0 3em;
+    
 }
 
 .servicos__titulo,
@@ -40,19 +41,22 @@
 .item-servicos__titulo {
     background-color: var(--preto);
     color: var(--branco);
-    font-weight: 600;
-    font-size: 24px;
+    font-weight: 500;
+    font-size: 20px;
     text-align: center;
     padding: .5em 0;
     border-radius: 0px 0px 20px 20px;
+    white-space: pre-wrap;
 }
 
 .item-servicos__imagem {
     display: block;
+    width: 400px;
+    height: 400px;
 }
 
 .conta {
-    background-image: url("../../img/banner-gato.png");
+    background-image: url("../../img/segundo-banner.png");
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

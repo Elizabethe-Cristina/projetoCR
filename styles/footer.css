@@ -31,13 +31,11 @@
 }
 
 .rodape__logo {
+    width: 90px;
+    height: 90px;
+    display: flex;
     margin-top: .6em;
-    font-size: 28px;
-    line-height: 36px;
-}
-
-.rodape__logo--negrito {
-    font-weight: 700;
+    
 }
 
 @media screen and (max-width: 798px) {

@@ -14,10 +14,12 @@
 }
 
 .cabecalho__logo-inicio {
-    font-family: var(--fonte-logo);
-    font-size: 28px;
-    font-weight: 700;
-    color: var(--azul-claro);
+    width: 90px;
+    height: 90px;
+    display: flex;
+    text-align: justify;
+    padding: 2px;
+
 }
 
 .cabecalho__logo-final {
@@ -49,13 +51,14 @@
     font-weight: 600;
     border-radius: 20px;
     padding: .5em 1em;
+    
     color: var(--azul-claro);
     border: var(--azul-claro) 2px solid;
 }
 
 .cabecalho-lista__item-botao--azul {
     background-color: var(--azul-claro);
-    color: var(--branco);
+    color: var(--preto);
 }
 
 @media screen and (max-width: 900px) {
